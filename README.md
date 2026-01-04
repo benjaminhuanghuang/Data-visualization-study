@@ -1,10 +1,5 @@
-# React Data Visualization application
+# React Data Visualization Study
 
-## Reference 
-  Learning React.js Data Visualization (By Ben Fhala Nov 15, 2016)
-
-## Technical stack
-  React
-  
-  Webpack + Webpack dev server
-
+- D3.js (Data-Driven Documents)
+- Chart.js
+- Recharts
