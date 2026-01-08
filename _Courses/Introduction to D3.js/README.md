@@ -2,8 +2,13 @@
 
 by Shirley Wu
 
-<https://www.bilibili.com/video/BV1ES4y177gR/>
 <https://frontendmasters.com/courses/d3/>
+
+[Code](https://observablehq.com/@sxywu/introduction-to-svg-and-d3-js?collection=@sxywu/introduction-to-d3-js)
+
+<https://observablehq.com/@sxywu/2-select-existing-petal-s-and-bind-movie-data>
+
+<https://www.bilibili.com/video/BV1ES4y177gR/>
 
 ## Table of Contents
 
