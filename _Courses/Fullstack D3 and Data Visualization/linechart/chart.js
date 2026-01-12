@@ -1,13 +1,12 @@
 async function drawLineChart() {
   // 1. Access data
   const dataset = await d3.json("./nyc_weather_data.json");
-
+  // takes one data point d and returns the value you want to use for y-axis
   const yAccessor = (d) => d.temperatureMax;
   const dateParser = d3.timeParse("%Y-%m-%d");
   const xAccessor = (d) => dateParser(d.date);
 
   // 2. Create chart dimensions
-
   let dimensions = {
     width: window.innerWidth * 0.9,
     height: 400,
@@ -24,7 +23,6 @@ async function drawLineChart() {
     dimensions.height - dimensions.margin.top - dimensions.margin.bottom;
 
   // 3. Draw canvas
-
   const wrapper = d3
     .select("#wrapper")
     .append("svg")
@@ -37,8 +35,8 @@ async function drawLineChart() {
       "transform",
       `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`
     );
-  // 4. Create scales
 
+  // 4. Create scales
   const yScale = d3
     .scaleLinear()
     .domain(d3.extent(dataset, yAccessor))
